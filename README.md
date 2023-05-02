@@ -20,7 +20,11 @@ ssh lovelace
 
 Here, you can download the exercises and use the provided scripts to execute. Note that you will note run the exercises in this machine directly, instead, you will launch the execution to the cluster queue. It will then execute and output the result to a file.
 
-### Example
+## Example 1
+
+It is recommended that you test the cluster environment with your already made OpenMP programs. To do so, you can use the `openmp-matmul-cenapad.pbs` script in this repository. Simply clone your OpenMP labs and put this .PBS file inside the folder `01-OmpFor-MatMul`. Then, just run `qsub 01-OmpFor-MatMul`.
+
+### Example 2
 
 Clone the repository:
 
